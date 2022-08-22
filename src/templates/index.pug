@@ -1,8 +1,6 @@
-extends _layout.pug
 block locals
-    - var title = "Hello Pug! Index!"
+    - var title = "Home"
+
 block content
-    h1 Hello, World!
-    div#react-root
-    .main-image
-        img.icon(src="../images/icon.png")
+    div.main-image
+    include ./_layout.pug

@@ -1,14 +1,14 @@
 .menu {
     display: flex;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
     &__item {
         margin-right: 0.5em;
         a {
             padding: 0.5em;
-            border-bottom: 4px solid #ddd;
             text-decoration: none;
+            color: black;
             &:hover {
-                color: green;
+                color: rgb(103, 205, 103);
             }
         }
     }
